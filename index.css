@@ -1,3 +1,71 @@
-.navbar-a {
-    color:rgb(183, 8, 8)
+header {
+    text-align: center;
+    color:brown;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+body {
+    
+    background: #111;
+
+}
+h6{
+    color:white;
+    font-size: 20px;
+    padding: 0px;
+}
+.div1 {
+    padding-bottom: 0px;
+}
+.button1{
+    background-color: blue;
+    color: white;
+    
+}
+#thumbsbutton,#thumbs2button {
+	width: 250px;
+    margin: 5px auto;
+	height: 90px;
+	line-height: 90px;
+	background-color: #444;
+	color: #fbfbfb;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 32px;
+	transition: all 0.3s;
+	border-radius: 20px 20px 20px 20px;
+	-webkit-border-radius: 20px 20px 20px 20px;
+	-moz-border-radius: 20px 20px 20px 20px;
+	-o-border-radius: 20px 20px 20px 20px;
+}
+
+#thumbsbutton:hover ,#thumbs2buttom:hover{
+	opacity: 0.8;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.addanimals {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: green;
+    padding: 0 0;
+    margin-bottom: 0px;
+
+}
+.name {
+    color: beige;
+    font-size: 30px;
+}
+.btn-primary {
+    color:white;
+    background-color: green;
+    height: 25px;
+    width: 50px;
+    cursor: pointer;
+    transition: opacity 0.5s ;
 }

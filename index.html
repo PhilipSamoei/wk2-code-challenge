@@ -4,48 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flatacuties</title>
+    <title> Flataculties</title>
     <link rel="stylesheet" href="index.css">
 </head>
-<body class="cointainer">
+<body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="cointainer-div">
-                <a  class="navbar-a"href="#" >Flatacuties</a>
-                <button class="navbar-toggler" type="button"data-bs-toggle="collapse" data-bs-target="#navbarNav"aria-controls="navbarNav">
-                    <span class="navbar-toggler-icon"> </span>
-                </button>
-                    <div>
-                        <ul>
-                            <li class="nav-item">
-                                <a class="nav-item active" aria-current="page" href="#">Animals</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="nav-link">Features</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="nav-link">Votes</a>
-                            </li>
-                            <li class="nav-item">
-                    
-                                <a href="nav-link disabled">Disabled</a>
-                            </li>
-                        </ul>
-                    </div>
-            <div class="cointainer-fluid">
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button type="submit" class="btn btn-outline-success">Search</button>
-                </form>
-            </div>
-        </nav>
+        Flataculties
     </header>
-    
-    <main>
-        <ul id="item-list" class="row" > 
+    <div class="div1">
+        <img src="https://thumbs.gfycat.com/EquatorialIckyCat-max-1mb.gif" alt="Mrs Cute">
+       <div>
+         <h6>Mrs Cute <div id="thumbs1">
+            <a  id="thumbs1button" title="" onclick="thumbs1_onclick()"></a></div></h6>
+        </div>
 
-        </ul>
-    </main>
-    <script src="/index.js"></script>
+    <div>
+        <img src="https://thumbs.gfycat.com/FatalInnocentAmericanshorthair-max-1mb.gif" alt="Mx. Monkey">
+        <h6>Mx. Monkey <div id="thumbs2"> <a  id="thumbs2button" title="" onclick="thumbs2_onclick()"></a></div></h6>
+    </div>
+    <div>
+        <img src="https://media2.giphy.com/media/20G9uNqE3K4dRjCppA/source.gif" alt="Ms Zebra">
+        <h6>Ms Zebra <div id="thumbs3"> <a  id="thumbs3button" title="" onclick="thumbs3_onclick()"></a></div></h6>
+    </div>
+    <div>
+        <img src="http://bestanimations.com/Animals/Mammals/Cats/Lions/animated-lion-gif-11.gif" alt="Dr.Lion">
+        <h6>Dr.Lion <div id="thumbs4"> <a  id="thumbs4button" title="" onclick="thumbs4_onclick()"></a></div></h6>
+    </div>
+    <div>
+        <img src="https://media.giphy.com/media/ALalVMOVR8Qw/giphy.gif" alt="Mme. Panda">
+        <h6>Mme.Panda <div id="thumbs5"> <a  id="thumbs5button" title="" onclick="thumbs5_onclick()"></a></div></h6>
+    </div>
+
+<h6 class="addanimals">
+    Add Animals
+</h6>
+
+            <form action="">
+
+                <div class="form-group">
+                    <label for="title" class="name">NAME</label>
+                    <input type="text" id="namein" placeholder="NAME" >
+                </div>
+
+                <div class="form-group">
+                    <label for="title" class="name">ID</label>
+                    <input type="text" id="idin" placeholder="ID" >
+                </div>
+
+                <div class="form-group">
+                    <label for="title" class="name">VOTES</label>
+                    <input type="text" id="votesin" placeholder="Votes" >
+                </div>
+
+                <div class="form-group">
+                    <label for="title" class="name">IMG URL</label>
+                    <input type="text" id="URLin" placeholder="URL" >
+                </div>
+
+                <button id="add-button" type="submit" class="btn btn-primary">
+                    ADD
+                  </button>
+
+
+
+            </form>
+    <script src="index.js"></script>
 </body>
 </html>
