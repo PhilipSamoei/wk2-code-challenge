@@ -8,17 +8,15 @@ Flataculties is a Ruby page for posting and voting for cute animals.
 
  Below the images is a form where you will in the details required and click submit and the animal would be display display in the webpage.
 
- ## languages used 
+ ## Technologies used 
 
- Html
- Css
- Jclear
-Javascript
+ This code was created by HTML CSS and Javascript.
 
+ 
  ## Contributing 
 
- Pull request and correction if any code doesn't seem correct is open.For majors issues,please make sure to update tests as appropriate.
-
+ If you would like to contribute feel free to fork  and make the neccesaty changes and make a pull request for reviewing the changes.
+ 
  ## Author name
 
  Philip Samoei.

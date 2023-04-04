@@ -5,13 +5,20 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
 }
-.like-counter {
-    color: #ece1e1;
-    text-decoration: none;
-    margin-left: 20px;
+
+   
+  
+  
+  .like-counter {
+    color: #f0eaea;
+    text-decoration: chocolate;
+    margin-right: 5px;
       
    
   
+  }
+  .liked {
+    font-weight: bold;
   }
   .click-text {
     
