@@ -4,17 +4,16 @@
     form.addEventListener('submit',function(e){
         e.preventDefault();
 
-        const prePayload = new FormData(form);
-        const payload = new URLSearchParams(prePayload);
-        
-        console.log([...payload]);
-
-        fetch('http://localhost:3000/characters',{
+        const myInit = {
             method:"POST",
             body:payload,
-        })
+
+        }
+        let myRequest = new Request ("./db.json")
+
+        fetch(myRequest )
         .then(res => res.json())
-        .then(data => console.log(data))
+        .then(charactersData => console.log(charactersData))
         .catch(err =>console.log(err));
     })
 
