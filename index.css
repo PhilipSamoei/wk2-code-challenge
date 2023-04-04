@@ -5,12 +5,29 @@ header {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
 }
+.like-counter {
+    color: #ece1e1;
+    text-decoration: none;
+    margin-left: 20px;
+      
+   
+  
+  }
+  .click-text {
+    
+    color: aliceblue;
+  }
 
+*{
+    background-color: #111;
+    color: #fbfbfb;
+}
 body {
     
     background: #111;
 
 }
+
 h6{
     color:white;
     font-size: 20px;

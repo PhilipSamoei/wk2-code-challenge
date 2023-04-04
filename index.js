@@ -6,7 +6,7 @@
 
         const myInit = {
             method:"POST",
-            body:payload,
+            
 
         }
         let myRequest = new Request ("./db.json")
@@ -18,12 +18,13 @@
     })
 
 
-    const count = 0;
-      const button = document.getElementById("myButton");
-       const countDisplay = document.getElementById("count");
-      button.addEventListener("click", function() {
-         count++;
-         countDisplay.innerHTML = count;
-      });
+    var clicks = 0;
 
+    document.getElementById("clicks").innerHTML = clicks;
+    
+    $('.like-counter').click(function() {
+      clicks += 1;
+      document.getElementById("clicks").innerHTML = clicks;
+      $('.like-counter').addClass("liked");
+    });
       
